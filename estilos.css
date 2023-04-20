@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: gray;
+    margin:0;
+    margin-bottom: 20px;
+  }
+  
+  .contenedor{
+    margin-right:auto;
+    margin-left:auto;
+    width:50%;
+    margin-top:40px;
+    border:solid 3px black;
+    background-color:white;
+    display:flex;  
+    flex-wrap: nowrap;  
+    justify-content: flex-start;
+    align-content: stretch;  
+  }
+  
+  .contenido {
+    display: block;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 25px;
+    color: #555555;
+    background-color: #202020;
+    color:white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin:10px;
+    position:relative;
+    text-align:center;
+  }
+  
+  .contenido {
+    flex-grow: 0;
+    height:inherit;
+    max-width:100%;
+    border: 2px solid black;
+    margin-left: 20px;
+  }
+  
+  .imagen{
+    width:200px;
+    margin-top:20px;
+  }
+  
+  .fotoPerfil{
+      width: 100%;
+  }
+  
+  .contenido:last-child{
+    width:60%;
+    border:none;
+    color:black;
+    background-color:white;  
+  }
+  
+  h1{
+    font-size:70px;
+    text-align:center;
+  }
+  
+  h2{
+    font-size:20px;
+    text-transform:uppercase;
+    text-align:left;
+  }
+  
+  p{
+    font-size:16px;
+    text-align:left;
+  }
+  span::before {
+    content:url("https://shorturl.at/iAEMS");  
+    margin: 10px; 
+    position:relative;
+    top:6px;
+  }
+  
+  .conocimientos img{
+    width:90px;
+    border:1px solid gray;
+    border-radius:10%;
+  }
+  .idiomas img{
+    width:140px;
+    margin-right:60px;
+  }
+  
+  
